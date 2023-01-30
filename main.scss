@@ -608,10 +608,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: rgb(141, 41, 41);
-  color: #131212;
-
-
+  background-color: rgb(23, 39, 98);
+  color: white;
 }
 
 input[type=subject] {
@@ -1107,34 +1105,17 @@ input[type=subject] select, area {
       
     }
 
-    /*
-    input[type=subject], select, area {
-      margin-left: 390px;
-      width: 320px;
-
-    }
-*/
+  
     input[type=submit], select, area {
-      margin-left: 150px;
+      margin-left: 60px;
     }
-  }
-  #email {
-    width: 250px;
-  }
-#number {
-  width: 250px;
-  margin-right: 90px;
+
+    input[type=subject], select, area {
+      margin-left: 80px;
+      margin-bottom: 50px;
+    }
 
 }
-
-/*
-#subject {
-  margin-left: 400px;
-  margin-top: -600px;
-  width: 300px;
-}
-
-*/
 
 .contact {
   .add {
@@ -1144,15 +1125,19 @@ input[type=subject] select, area {
     margin-right: 150px;
   }
   .tact {
-    margin-right: 190px;
+    margin-right: 180px;
     padding: 0.85em;
   }
   .number {
-    margin-left: 600px;
+    margin-left: 620px;
     margin-top: -43px;
   }
+  .footer {
+    margin-top: 29px;
+  }
+
 }
-}
+
 
 }
 
@@ -1162,6 +1147,9 @@ input[type=subject] select, area {
 @media screen and (min-width: 1050px) {
   nav {
     display: block;
+    input[type=text], select, area {
+display: none;
+    }
   }
 
   nav li {
@@ -1242,6 +1230,10 @@ input[type=subject] select, area {
         font-size: 45px;
         margin-left: 5px;
       }
+
+      #button-2 {
+        margin-left: 85px;
+      }
     
     }
 
@@ -1257,34 +1249,141 @@ input[type=subject] select, area {
       .F {
         font-size: 40px;
       }
-      button {
-        margin-left: 200px;
+
+      #button-3 {
+        margin-left: 85px;
+        margin-top: 38px;
       }
+    
     }
   }
 
   .btn {
-    margin-left: 130px;
-  }
-
-
-  #button {
-    margin-left: -25px;
+    margin-left: 150px;
   }
 
   
 
   .testimonials {
     .first {
-      font-size: 30px;
+      font-size: 40px;
     }
     width: 1050px;
     height: 500px;
     background-color: #191818;
+
+
+    h1 {
+      font-size: 60px;
+    }
+
+    .card-1 {
+      h3 {
+        padding: 10px 20px;
+}
+h4 {
+  margin-top: 10px;
+  margin-left: 500px;
+}
+h5 {
+  margin-left: 480px;
+}
+    }
+
+.card-2 {margin-top: -70px;
+  h3 {
+    margin-left: 400px;
   }
 
+  h4 {
+    margin-left: 850px;
+  }
+  h5 {
+    margin-left: 780px;
+  }
+}
+}
 
-  
+.portfolio {
+  margin-top: 140px;
+  .container2 {
+    h1 {
+      font-size: 80px;
+margin-left: 400px;}
+}
+
+  #p-btn {
+    margin-left: 490px;
+  }
+}
+
+.blog {
+  .blogpost1 {
+    width: 700px;
+    h2 {
+      margin-left: 20px;
+    }
+    h3 {
+      margin-left: 30px;
+    }
+    button {
+      margin-left: 560px;
+    }
+  }
+
+  .blogpost2 {
+    width: 700px;
+    h2 {
+      margin-left: 20px;
+    }
+
+    h3 {
+      margin-left: 30px;
+    }
+
+    button {
+      margin-left: 560px;
+    }
+  }
+}
+
+
+
+.social-footer {
+  h1 {
+    margin-left: 360px;
+  }
+  .contact-container {
+    input[type=text], select, area {
+      width: 470px;
+      margin-left: 60px;
+    }
+    input[type=subject], select, area {
+width: 400px;
+margin-top: -240px;
+margin-left: 20px;
+position: absolute;
+}
+
+input[type=submit], select, area {
+  margin-left: 190px;
+  margin-bottom: 50px;
+}
+  }
+
+  .contact {
+    .tact {
+      margin-right: 220px;
+    }
+    .number {
+      margin-left: 850px;
+    }
+  }
+}
+
+
+
+
 }
 
 
@@ -1412,4 +1511,6 @@ input[type=subject] select, area {
 
 }
 
+}
 */
+}
